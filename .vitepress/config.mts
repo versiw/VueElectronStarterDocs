@@ -6,7 +6,7 @@ export default defineConfig({
   description: '基于 electron-vite 的 Vue 3 桌面应用起始模板项目',
   head: [['link', { rel: 'icon', href: 'src/public/logo.svg' }]],
   srcDir: 'src',
-  // base: '/repo/',
+  base: '/VueElectronStarterDocs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
