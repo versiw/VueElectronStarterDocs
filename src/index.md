@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /markdown-examples
+      link: /intro
     - theme: alt
       text: 在 GitHub 上查看
       link: https://github.com/versiw/VueElectronStarter
