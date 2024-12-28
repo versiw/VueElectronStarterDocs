@@ -59,7 +59,7 @@ jobs:
         # 安装依赖
       - name: Install dependencies
         run: |
-          npx -D commitizen init cz-conventional-changelog-zh --save-exact
+          npx -D commitizen init cz-conventional-changelog-zh --save-exact --force
           npx -D commitizen init cz-customizable --save-exact --force
           npm i
 
