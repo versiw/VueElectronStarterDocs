@@ -58,7 +58,10 @@ jobs:
 
         # 安装依赖
       - name: Install dependencies
-        run: npm ci
+        run: |
+          npx -D commitizen init cz-conventional-changelog-zh --save-exact
+          npx -D commitizen init cz-customizable --save-exact --force
+          npm i
 
         # 构建项目
       - name: Build with VitePress
