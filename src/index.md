@@ -42,3 +42,25 @@ features:
     details: 开箱即用支持 Typescript、ESLint、Prettier等
 ---
 
+<br/>
+
+<img src="https://gcore.jsdelivr.net/gh/versiw/FavPic/images/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="" width="10000" />
+
+<br/>
+
+<h1 style='display:flex;items-align:center;justify-content:center'>预览</h1>
+
+<br/>
+
+
+<div  style='display:flex;items-align:center;justify-content:center;width:100%'>
+<img src="/demo_index_dark.png"   alt="VueElectronStarter demo_index_dark" width="1000" />
+</div>
+
+<div  style='display:flex;items-align:center;justify-content:center;width:100%'>
+<img src="/demo_index_light.png"   alt="VueElectronStarter demo_index_dark" width="1000" />
+</div>
+
+<!-- ![VueElectronStarter demo_index_dark](/demo_index_dark.png){ width=600px; }
+
+![VueElectronStarter demo_index_light](/demo_index_light.png){ width=600px;} -->
