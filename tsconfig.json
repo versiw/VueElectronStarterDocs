@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    // 目标语言的版本
+    "target": "ES6",
+    // 生成代码的模板标准
+    "module": "ES6",
+    // 指定编译后文件所在目录
+    "outDir": "dist",
+    // 允许export=导出，由import from 导入
+    "esModuleInterop": true,
+    // 强制确保在导入文件时使用一致的大小写
+    "forceConsistentCasingInFileNames": true,
+    // 开启所有严格的类型检查
+    "strict": true,
+    // 是否跳过声明文件的类型检查，这可以在编译期间以牺牲类型系统准确性为代价来节省时间，默认：false
+    "skipLibCheck": false
+    // 删除注释
+    // "removeComments":true,
+  },
+  // 表示编译需要编译的文件或目录
+  "include": ["src/**/*"]
+}
+
+/* 参考配置
+
+https://juejin.cn/post/7077102548640858125 
+
+*/
