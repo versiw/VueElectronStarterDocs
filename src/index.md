@@ -8,6 +8,7 @@ hero:
   tagline: 基于 Vue3、Vite5、Naive UI 和 Electron
   image:
     src: /logo.svg
+    alt: VueElectronStarter
   actions:
     - theme: brand
       text: 快速开始
