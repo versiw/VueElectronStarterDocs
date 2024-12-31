@@ -4,12 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'VueElectronStarter',
   description: '基于 electron-vite 的 Vue 3 桌面应用起始模板项目',
-  head: [['link', { rel: 'icon', href: 'src/public/logo.svg' }]],
+  head: [['link', { rel: 'icon', href: '/src/public/logo.svg' }]],
   srcDir: 'src',
   base: '/VueElectronStarterDocs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo.svg',
+    logo: '/src/public/logo.svg',
     nav: [
       { text: '主页', link: '/' },
       { text: '指南', link: '/intro' },

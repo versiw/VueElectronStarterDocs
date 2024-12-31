@@ -52,15 +52,27 @@ features:
 
 <br/>
 
+<div  style='display:flex;items-align:center;justify-content:center;width:100%'>
+<img src="/demo_index_light.png"   alt="VueElectronStarter demo_index_dark" width="1000" />
+</div>
+
+<br/>
 
 <div  style='display:flex;items-align:center;justify-content:center;width:100%'>
 <img src="/demo_index_dark.png"   alt="VueElectronStarter demo_index_dark" width="1000" />
 </div>
 
-<div  style='display:flex;items-align:center;justify-content:center;width:100%'>
-<img src="/demo_index_light.png"   alt="VueElectronStarter demo_index_dark" width="1000" />
-</div>
 
 <!-- ![VueElectronStarter demo_index_dark](/demo_index_dark.png){ width=600px; }
 
 ![VueElectronStarter demo_index_light](/demo_index_light.png){ width=600px;} -->
+
+
+
+
+<style module>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #53D386, #9462FF);
+}
+</style>
